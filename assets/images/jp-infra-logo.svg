@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="168" height="194" viewBox="0 0 168 194" fill="none">
+  <title>Logo</title>
+  <g stroke="#55545B" stroke-width="2.5" stroke-linecap="square" stroke-linejoin="miter">
+    <path d="M70.5 27.5 V123.5" />
+    <path d="M59.5 50.5 V136.5 H81.5 V50.5" />
+    <path d="M47.5 67.5 V145.5 H93.5 V67.5" />
+    <path d="M39.5 158.0 H100.5" />
+  </g>
+</svg>
