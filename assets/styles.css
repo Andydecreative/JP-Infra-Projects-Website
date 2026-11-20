@@ -37,3 +37,10 @@
 .step h3{margin:20px 0 8px;line-height:1.2;min-height:29px}
 .step p{margin:0;max-width:250px;line-height:1.55}
 @media(max-width:680px){.step{min-height:185px;padding:24px 16px 20px 0}.step h3{margin-top:17px}}
+
+/* Footer brand block: larger, editorial logo and stacked identity */
+.footer-brand{display:flex;flex-direction:column;align-items:flex-start;gap:20px;letter-spacing:-.04em}
+.footer-brand img{width:100px;height:116px;object-fit:contain;filter:brightness(0) invert(1);margin-bottom:2px}
+.footer-brand .brand-name{font-size:clamp(24px,2.5vw,34px);letter-spacing:-.055em;line-height:1.05}
+.footer-top>div:first-child p{font-size:15px;margin-top:14px;color:#a8aaa9;letter-spacing:.01em}
+@media(max-width:680px){.footer-brand{gap:16px}.footer-brand img{width:82px;height:96px}.footer-brand .brand-name{font-size:26px}.footer-top>div:first-child p{font-size:14px}}
