@@ -84,3 +84,11 @@
  .approach .steps .step:nth-child(4){padding-left:28px!important}
  .approach .steps .step:nth-child(1){padding-left:0!important}
 }
+
+/* Mobile alignment: left-column cards flush; right-column cards inset after divider */
+@media(max-width:680px){
+ .approach .steps .step:nth-child(1),
+ .approach .steps .step:nth-child(3){padding-left:0!important}
+ .approach .steps .step:nth-child(2),
+ .approach .steps .step:nth-child(4){padding-left:28px!important}
+}
