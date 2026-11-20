@@ -49,3 +49,12 @@
 .footer-brand .brand-name{font-size:clamp(24px,2.5vw,34px);letter-spacing:-.055em;line-height:1.05}
 .footer-top>div:first-child p{font-size:15px;margin-top:14px;color:#a8aaa9;letter-spacing:.01em}
 @media(max-width:680px){.footer-brand{gap:16px}.footer-brand img{width:82px;height:96px}.footer-brand .brand-name{font-size:26px}.footer-top>div:first-child p{font-size:14px}}
+
+/* Final process-row fix: equal tracks, aligned content, no reveal movement */
+.approach .steps{display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:0!important;width:100%;align-items:stretch!important}
+.approach .steps .step{width:100%;min-width:0;box-sizing:border-box;display:flex!important;flex-direction:column!important;align-items:flex-start!important;justify-content:flex-start!important;padding:27px 24px 24px 0!important;min-height:230px!important;border-right:1px solid #bcbab5!important;border-bottom:0!important;opacity:1!important;transform:none!important;transition:none!important}
+.approach .steps .step:last-child{border-right:0!important}
+.approach .steps .step>span{margin:0 0 22px!important;min-height:14px!important;line-height:1.2!important}
+.approach .steps .step h3{margin:0 0 10px!important;min-height:0!important;line-height:1.2!important}
+.approach .steps .step p{margin:0!important;max-width:250px!important;line-height:1.55!important}
+@media(max-width:680px){.approach .steps{grid-template-columns:repeat(2,minmax(0,1fr))!important}.approach .steps .step{min-height:185px!important;padding:24px 16px 20px 0!important}.approach .steps .step:nth-child(2){border-right:0!important}.approach .steps .step:nth-child(3){border-bottom:0!important}.approach .steps .step:nth-child(4){border-right:0!important}}
