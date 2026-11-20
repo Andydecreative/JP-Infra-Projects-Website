@@ -100,3 +100,8 @@
 
 /* Homepage performance: keep the hero static to reduce paint work */
 .home-hero .hero-image{animation:none;transform:none}
+
+/* Services hero: protect the header area and keep headline aligned */
+.services-hero .page-hero-copy{padding-top:clamp(110px,14vh,170px);margin-bottom:clamp(55px,8vh,100px);max-width:820px}
+.services-hero .page-hero-copy h1{max-width:780px;font-size:clamp(42px,6.8vw,92px);line-height:1.02}
+@media(max-width:680px){.services-hero .page-hero-copy{padding-top:100px;margin-bottom:11vh}.services-hero .page-hero-copy h1{font-size:clamp(39px,11.5vw,64px)}}
