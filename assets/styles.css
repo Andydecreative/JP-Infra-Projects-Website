@@ -4,3 +4,28 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}.reveal{opacity:1;transform:none}}
 /* Header adapts to photographic heroes before transitioning into the light navigation state. */
 .site-header:not(.scrolled){color:#fff}.site-header:not(.scrolled) .brand img{filter:brightness(0) invert(1)}.site-header:not(.scrolled) .nav-cta{border-color:#ffffff70}.site-header:not(.scrolled) .nav-cta span{color:#e5a078}.site-header:not(.scrolled) .menu-toggle span{background:#fff}.site-header.scrolled .brand img{filter:none}
+
+/* Brand alignment refinements */
+.brand{white-space:nowrap;flex-shrink:0;gap:13px;letter-spacing:-.045em}
+.brand img{width:50px;height:54px;object-fit:contain}
+.brand-name{display:inline-block;white-space:nowrap;line-height:1;font-size:16px;font-weight:800;letter-spacing:-.045em}
+.site-header{gap:24px}
+.nav{gap:clamp(18px,2.2vw,32px)}
+.footer-brand img{width:50px;height:54px}
+.footer-brand .brand-name{font-size:16px}
+.footer-top{align-items:flex-start}
+.footer-links{align-items:flex-start}
+@media(max-width:900px){
+ .site-header{gap:18px}
+ .brand img{width:46px;height:50px}
+ .brand-name{font-size:14px}
+ .nav{gap:18px}
+}
+@media(max-width:680px){
+ .site-header{height:74px}
+ .brand{gap:10px}
+ .brand img{width:44px;height:48px}
+ .brand-name{font-size:13px;letter-spacing:-.035em}
+ .footer-brand img{width:44px;height:48px}
+ .footer-brand .brand-name{font-size:14px}
+}
