@@ -29,3 +29,11 @@
  .footer-brand img{width:44px;height:48px}
  .footer-brand .brand-name{font-size:14px}
 }
+
+/* Process steps: consistent column alignment and spacing */
+.steps{align-items:stretch}
+.step{display:grid;grid-template-rows:auto auto 1fr;align-content:start;min-height:230px;padding:27px 24px 24px 0}
+.step>span{display:block;line-height:1.2;min-height:14px}
+.step h3{margin:20px 0 8px;line-height:1.2;min-height:29px}
+.step p{margin:0;max-width:250px;line-height:1.55}
+@media(max-width:680px){.step{min-height:185px;padding:24px 16px 20px 0}.step h3{margin-top:17px}}
