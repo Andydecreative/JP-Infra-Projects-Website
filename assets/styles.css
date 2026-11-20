@@ -58,3 +58,10 @@
 .approach .steps .step h3{margin:0 0 10px!important;min-height:0!important;line-height:1.2!important}
 .approach .steps .step p{margin:0!important;max-width:250px!important;line-height:1.55!important}
 @media(max-width:680px){.approach .steps{grid-template-columns:repeat(2,minmax(0,1fr))!important}.approach .steps .step{min-height:185px!important;padding:24px 16px 20px 0!important}.approach .steps .step:nth-child(2){border-right:0!important}.approach .steps .step:nth-child(3){border-bottom:0!important}.approach .steps .step:nth-child(4){border-right:0!important}}
+
+/* Process cards: add breathing room after the vertical separators */
+@media(min-width:681px){
+ .approach .steps .step:nth-child(2){padding-left:28px!important}
+ .approach .steps .step:nth-child(3){padding-left:28px!important}
+ .approach .steps .step:nth-child(4){padding-left:28px!important}
+}
