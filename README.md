@@ -1,5 +1,22 @@
-# JP INFRA Projects Website
+# JP Infra Projects Website
 
-Multi-page static website for JP INFRA Projects.
+A responsive static multi-page website for JP Infra Projects.
 
-Pages: Home, About, Services, Mining & Quarry Operations, Infrastructure Projects, Villa Projects, Dams & Reservoirs and Irrigation Projects. Shared styles and scripts are in `assets/css` and `assets/js`; image assets are in `assets/images`. Service pages include expanded capability sections and delivery approaches. Replace placeholder imagery with authentic project photographs before publishing.
+## Pages
+- Home (`index.html`)
+- About (`about.html`)
+- Services (`services.html`)
+- Mining & Quarry Operations (`mining.html`)
+- Infrastructure Projects (`infrastructure.html`)
+- Villa Projects (`villa.html`)
+- Dams & Reservoirs (`dams.html`)
+- Irrigation Projects (`irrigation.html`)
+- Contact (`contact.html`)
+
+## Run locally
+Open `index.html` in a browser, or use a local server: `python3 -m http.server 8000`.
+
+## Notes
+- User-provided logo and mining/quarry photography are included in `assets/`.
+- Sector imagery for infrastructure, villas, dams and irrigation uses Unsplash source URLs and requires internet access. Replace with approved project photography before launch.
+- Update contact details and verify company information before publishing.
