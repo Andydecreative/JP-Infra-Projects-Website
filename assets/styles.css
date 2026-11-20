@@ -76,3 +76,11 @@
  .approach .steps .step h3{font-size:clamp(25px,7.5vw,34px)!important;line-height:1.15!important;margin:0 0 12px!important}
  .approach .steps .step p{font-size:clamp(14px,4vw,17px)!important;line-height:1.55!important;max-width:none!important}
 }
+
+/* Mobile: carry desktop breathing-space rule into the two-column layout */
+@media(max-width:680px){
+ .approach .steps .step:nth-child(2),
+ .approach .steps .step:nth-child(3),
+ .approach .steps .step:nth-child(4){padding-left:28px!important}
+ .approach .steps .step:nth-child(1){padding-left:0!important}
+}
