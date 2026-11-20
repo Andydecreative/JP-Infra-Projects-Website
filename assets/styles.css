@@ -97,3 +97,6 @@
 /* Performance: avoid large hero background zoom on small screens */
 @media(max-width:680px){.hero-image,.page-hero-img,.service-hero-img{animation:none;transform:none}}
 @media(prefers-reduced-motion:reduce){.hero-image,.page-hero-img,.service-hero-img{animation:none;transform:none}}
+
+/* Homepage performance: keep the hero static to reduce paint work */
+.home-hero .hero-image{animation:none;transform:none}
