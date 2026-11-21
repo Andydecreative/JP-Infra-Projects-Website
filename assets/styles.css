@@ -138,3 +138,10 @@ body{color:#191b1c}
 .eyebrow.light,.dark-section .eyebrow,.split-feature-copy .eyebrow.light{color:#e7a174!important}
 .mini-process span,.text-link,.contact-item a,.contact-item p{color:#252727!important}
 .dark-section .text-link,.split-feature-copy .text-link,.footer .text-link{color:#fff!important}
+
+/* Homepage hero final alignment correction: keep headline comfortably inside viewport */
+.home-hero .hero-content{width:min(780px,calc(100% - 2*var(--pad)))!important;max-width:780px!important;margin-top:calc(82px + 3vh)!important;margin-bottom:8vh!important}
+.home-hero .hero-content h1{font-size:clamp(48px,6.2vw,84px)!important;line-height:1.04!important;letter-spacing:-.055em!important;max-width:780px!important;text-wrap:balance}
+.home-hero .hero-content p{max-width:600px!important;font-size:clamp(15px,1.35vw,18px)!important;line-height:1.55!important}
+@media(max-width:900px){.home-hero .hero-content{max-width:720px!important;width:calc(100% - 2*var(--pad))!important}.home-hero .hero-content h1{font-size:clamp(44px,7vw,68px)!important;max-width:720px!important}}
+@media(max-width:680px){.home-hero .hero-content{margin-top:calc(74px + 3vh)!important;margin-bottom:12vh!important;max-width:none!important;width:calc(100% - 2*var(--pad))!important}.home-hero .hero-content h1{font-size:clamp(40px,10.8vw,62px)!important;line-height:1.05!important;letter-spacing:-.045em!important}.home-hero .hero-content p{font-size:15px!important;line-height:1.55!important}}
