@@ -129,3 +129,12 @@ body{color:#191b1c}
 .text-link span,.nav-cta span{color:#a94f20!important}
 .dark-section .light-link,.footer a{color:#fff}
 .footer a:hover{color:#e8a06f!important}
+
+/* Readability correction: pale secondary headline text and muted copy were too low-contrast */
+.hero h1 em,.page-hero h1 em,.service-hero h1 em,.section h2 em,.closing h2 em,.about-copy h2 em,.split-feature-copy h2 em,.story-intro h2 em,.service-intro-title h2 em,.contact-left h2 em{color:#73736f!important}
+.section-head p,.cap-card>p,.about-copy p,.story-body p,.service-intro-text p,.service-row-content p,.step p,.value p,.split-feature-copy p,.contact-left p{color:#555a59!important}
+.capability h3,.step h3,.value h3,.service-row-content h3{color:#242626!important}
+.eyebrow,.cap-num,.capability span,.step>span,.value>span,.foot-label{color:#97441f!important}
+.eyebrow.light,.dark-section .eyebrow,.split-feature-copy .eyebrow.light{color:#e7a174!important}
+.mini-process span,.text-link,.contact-item a,.contact-item p{color:#252727!important}
+.dark-section .text-link,.split-feature-copy .text-link,.footer .text-link{color:#fff!important}
