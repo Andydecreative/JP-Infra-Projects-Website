@@ -170,3 +170,6 @@ body{color:#191b1c}
 .mini-process article>span{display:block;font:700 20px var(--font-head);letter-spacing:-.04em;margin:0 0 12px;color:var(--ink)}
 .mini-process article p{font-size:13px;line-height:1.6;color:#6c6d6b;margin:0;max-width:270px}
 @media(max-width:680px){.mini-process{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:16px!important}.mini-process article{padding:18px 10px 12px 0}.mini-process article>span{font-size:18px}.mini-process article p{font-size:12px}}
+
+/* Remove duplicate rule line above the delivery process cards; retain each card's own divider. */
+.mini-process{border-top:0!important;padding-top:0!important;margin-top:0!important}
