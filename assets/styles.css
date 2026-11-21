@@ -145,3 +145,8 @@ body{color:#191b1c}
 .home-hero .hero-content p{max-width:600px!important;font-size:clamp(15px,1.35vw,18px)!important;line-height:1.55!important}
 @media(max-width:900px){.home-hero .hero-content{max-width:720px!important;width:calc(100% - 2*var(--pad))!important}.home-hero .hero-content h1{font-size:clamp(44px,7vw,68px)!important;max-width:720px!important}}
 @media(max-width:680px){.home-hero .hero-content{margin-top:calc(74px + 3vh)!important;margin-bottom:12vh!important;max-width:none!important;width:calc(100% - 2*var(--pad))!important}.home-hero .hero-content h1{font-size:clamp(40px,10.8vw,62px)!important;line-height:1.05!important;letter-spacing:-.045em!important}.home-hero .hero-content p{font-size:15px!important;line-height:1.55!important}}
+
+/* Hero/header overlap fix: create a real top safe zone on every hero */
+.hero-content,.page-hero-copy,.service-hero-copy{margin-top:calc(82px + 4vh)!important;margin-bottom:10vh!important;}
+.hero h1,.page-hero h1,.service-hero h1{font-size:clamp(42px,6.5vw,88px)!important;line-height:1.04!important;letter-spacing:-.055em!important}
+@media(max-width:680px){.hero-content,.page-hero-copy,.service-hero-copy{margin-top:calc(74px + 5vh)!important;margin-bottom:12vh!important}.hero h1,.page-hero h1,.service-hero h1{font-size:clamp(38px,10.5vw,60px)!important;line-height:1.05!important;letter-spacing:-.045em!important}}
