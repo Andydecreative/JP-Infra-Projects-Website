@@ -113,3 +113,19 @@
 .home-hero .hero-content h1{max-width:900px!important;font-size:clamp(48px,7.2vw,98px)!important;line-height:1.02!important;margin-bottom:clamp(20px,3vh,30px)!important}
 .home-hero .hero-content p{max-width:620px!important;line-height:1.6!important}
 @media(max-width:680px){.home-hero{align-items:flex-end!important}.home-hero .hero-content{margin-top:calc(74px + 4vh)!important;margin-bottom:13vh!important}.home-hero .hero-content h1{font-size:clamp(40px,11.5vw,66px)!important;line-height:1.03!important}.home-hero .hero-content .eyebrow{font-size:9px;letter-spacing:.13em}}
+
+/* Global readability and colour-contrast pass */
+:root{--muted:#626565;--orange:#a94f20}
+body{color:#191b1c}
+.section-head p,.cap-card>p,.about-copy p,.story-body p,.service-intro-text p,.service-row-content p,.step p,.value p,.contact-left p{color:#5e6161!important}
+.eyebrow,.cap-num,.capability span,.foot-label{color:#a94f20!important}
+.dark-section .eyebrow,.eyebrow.light{color:#e8a06f!important}
+.footer-links>div{color:#d0d2d1!important}
+.footer-top>div:first-child p{color:#c0c2c1!important}
+.footer-bottom{color:#b9bcbb!important}
+.dropdown a{color:#292b2b}
+.btn-orange{background:#a94f20!important;color:#fff!important}
+.btn-orange:hover{background:#873d18!important}
+.text-link span,.nav-cta span{color:#a94f20!important}
+.dark-section .light-link,.footer a{color:#fff}
+.footer a:hover{color:#e8a06f!important}
