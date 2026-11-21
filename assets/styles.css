@@ -105,3 +105,11 @@
 .services-hero .page-hero-copy{padding-top:clamp(110px,14vh,170px);margin-bottom:clamp(55px,8vh,100px);max-width:820px}
 .services-hero .page-hero-copy h1{max-width:780px;font-size:clamp(42px,6.8vw,92px);line-height:1.02}
 @media(max-width:680px){.services-hero .page-hero-copy{padding-top:100px;margin-bottom:11vh}.services-hero .page-hero-copy h1{font-size:clamp(39px,11.5vw,64px)}}
+
+/* Homepage hero: reserve space for the fixed header and keep content clear */
+.home-hero{align-items:center!important}
+.home-hero .hero-content{margin-top:calc(82px + 4vh)!important;margin-bottom:7vh!important;max-width:900px!important;width:min(900px,calc(100% - 2*var(--pad)))!important}
+.home-hero .hero-content .eyebrow{margin-bottom:clamp(18px,3vh,30px)!important;line-height:1.5!important}
+.home-hero .hero-content h1{max-width:900px!important;font-size:clamp(48px,7.2vw,98px)!important;line-height:1.02!important;margin-bottom:clamp(20px,3vh,30px)!important}
+.home-hero .hero-content p{max-width:620px!important;line-height:1.6!important}
+@media(max-width:680px){.home-hero{align-items:flex-end!important}.home-hero .hero-content{margin-top:calc(74px + 4vh)!important;margin-bottom:13vh!important}.home-hero .hero-content h1{font-size:clamp(40px,11.5vw,66px)!important;line-height:1.03!important}.home-hero .hero-content .eyebrow{font-size:9px;letter-spacing:.13em}}
